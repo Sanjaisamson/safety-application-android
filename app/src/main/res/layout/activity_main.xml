@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3EBF4"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100pt"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="180pt"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180pt"
+        android:layout_marginLeft="100pt"
+        android:text="Register" />
+
+    <!--        android:layout_marginLeft="90pt"-->
+    <!--        android:layout_marginTop="150pt"-->
+    <!--    android:layout_toRightOf="@+id/button3"-->
+    <!-- Add other views and customize their positions as needed -->
+
+</RelativeLayout>

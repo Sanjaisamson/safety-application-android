@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3EBF4"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sos"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Help Me!" />
+
+    <Button
+        android:id="@+id/RegisterGaurd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Register Guardian"/>
+    <Button
+        android:id="@+id/secModeStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Security Mode ON"/>
+    <Button
+        android:id="@+id/secModeStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Secure Mode OFF"/>
+
+    <!-- Add other views and customize their positions as needed -->
+
+</RelativeLayout>
